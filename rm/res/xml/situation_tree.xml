@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<situation name="路訊發布">
+    <tree name="塞車信息">
+        <tree name="塞車狀況" level="1">
+            <tree name="車流量大" />
+            <tree name="車流量超大" />
+            <tree name="堵塞超過1公里" />
+            <tree name="堵塞超過3公里" />
+            <tree name="堵塞超過5公里" />
+            <tree name="堵塞超過10公里" />
+            <tree name="塞車到想睡覺！" />
+            <tree name="觀光區不塞也難！" />
+            <tree name="路邊一堆並排違規" />
+            <tree name="二線道併一線道" />
+        </tree>
+        <tree name="車禍狀況" level="2">
+            <tree name="這裡有車禍事故" />
+            <tree name="右轉車道有事故" />
+            <tree name="左轉車道有事故" />
+            <tree name="往東方向車禍狀況" />
+            <tree name="往南方向車禍狀況" />
+            <tree name="往西方向車禍狀況" />
+            <tree name="往北方向車禍狀況" />
+            <tree name="內線車道有事故" />
+            <tree name="中間車道有事故" />
+            <tree name="外線車道有事故" />
+            <tree name="車禍事故單線通車" />
+            <tree name="涵洞內有事故狀況" />
+            <tree name="天橋下有事故狀況" />
+            <tree name="陸橋下有事故狀況" />
+            <tree name="平交道有事故狀況" />
+            <tree name="機車道有事故狀況" />
+            <tree name="公車專用道有事故" />
+            <tree name="隧道內有事故狀況" />
+            <tree name="連環車禍請注意" />
+            <tree name="死亡車禍請注意" />
+            <tree name="事故排除中請慢行" />
+            <tree name="路上有鬥毆狀況" />
+            <tree name="車道上有車輛拋錨" />
+            <tree name="交流道有事故狀況" />
+            <tree name="火燒車事故狀況" />
+        </tree>
+        <tree name="施工狀況" level="1">
+            <tree name="施工，單線通車" />
+            <tree name="內線車道有施工點" />
+            <tree name="中間車道有施工點" />
+            <tree name="外線車道有施工點" />
+            <tree name="路面正在鋪設柏油" />
+            <tree name="路面刨除中，慢行" />
+            <tree name="安全島有除草作業" />
+            <tree name="路邊有除草作業" />
+            <tree name="內線車道有灑水車" />
+            <tree name="內線車道清潔作業" />
+            <tree name="路肩有情節作業" />
+            <tree name="指示牌在更換作業" />
+        </tree>
+        <tree name="交管狀況" level="2">
+            <tree name="活動路段請勿行駛" />
+            <tree name="火警狀況，交管中" />
+            <tree name="水災狀況，交管中" />
+            <tree name="地震狀況，交管中" />
+            <tree name="高乘載限制交管中" />
+            <tree name="政府官員行車交管" />
+            <tree name="維安狀況，交管中" />
+            <tree name="有警察手控號誌燈" />
+            <tree name="有義交手控紅綠燈" />
+            <tree name="交流道在流量管制" />
+            <tree name="廟會活動，交管中" />
+            <tree name="跨年活動，交管中" />
+            <tree name="遊樂區道路交管中" />
+        </tree>
+    </tree>
+    <tree name="災害信息" level="3">
+        <tree name="路面塌方，禁行" />
+        <tree name="路面塌方，請慢行" />
+        <tree name="路面有碎石，慢行" />
+        <tree name="路面有巨石擋路" />
+        <tree name="這裡有土石流狀況" />
+        <tree name="部分路面塌陷" />
+        <tree name="路面塌陷請勿行駛" />
+        <tree name="橋樑斷裂請勿行駛" />
+        <tree name="濃霧狀況，請慢行" />
+        <tree name="暴雨狀況，請慢行 " />
+        <tree name="路面積水，請慢行" />
+        <tree name="積水嚴重請勿行駛" />
+        <tree name="瓦斯管爆裂，封路" />
+        <tree name="房屋倒塌，封路" />
+        <tree name="有龍捲風，請小心" />
+        <tree name="海嘯，快往高處逃" />
+    </tree>
+    <tree name="警務信息" level="2">
+        <tree name="酒駕注意警察臨檢" />
+        <tree name="往北方向測速拍照" />
+        <tree name="往南方向測速拍照" />
+        <tree name="往東方向測速拍照" />
+        <tree name="往西方向測速拍照" />
+        <tree name="橋上有警察測速" />
+        <tree name="橋下有警察測速" />
+        <tree name="匝道有警察測速" />
+        <tree name="便裝警車巡邏中" />
+        <tree name="轉角處躲著警察" />
+        <tree name="防空演習路面禁行" />
+    </tree>
+    <tree name="其他狀況" level="1">
+        <tree name="路上有人在裸奔！" />
+        <tree name="路上有瘋子在跳舞" />
+        <tree name="路上有動物亂跑！" />
+        <tree name="路上有殭屍亂跑！" />
+        <tree name="車道上有廢棄物" />
+        <tree name="車道上有輪胎皮" />
+        <tree name="紅綠燈故障了!" />
+        <tree name="水管爆裂，積水" />
+        <tree name="百貨公司在週年慶" />
+        <tree name="停車場塞爆滿了！" />
+        <tree name="有錢及事件發生！" />
+        <tree name="路邊有喪事辦理" />
+        <tree name="有飆車族橫行！" />
+        <tree name="萬聖節遊行人潮" />
+        <tree name="黃色小鴨在這出沒！" />
+        <tree name="這裡是煙火施放區" />
+        <tree name="路上有小孩行走" />
+        <tree name="路跑活動，封路" />
+        <tree name="自行車活動，慢行" />
+        <tree name="這裡有沙灘音樂祭" />
+    </tree>
+</situation>

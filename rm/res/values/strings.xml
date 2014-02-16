@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RoadMessage</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="north">N</string>
+    <string name="south">S</string>
+    <string name="east">E</string>
+    <string name="west">W</string>
+    <string name="north_west">NW</string>
+    <string name="south_west">SW</string>
+    <string name="north_east">NE</string>
+    <string name="south_east">SE</string>
+    <string name="n_latitude">N</string>
+    <string name="s_latitude">S</string>
+    <string name="e_longitude">E</string>
+    <string name="w_longitude">W</string>
+    
+    <string name="confirm">OK</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- ui string -->
+    <string name="marker_title_park_here">your car is here!</string>
+    <string name="marker_clicked_sub_title">click to close.</string>
+    <string name="marker_clicked_no_result">could not find information.</string>
+    <string name="location_share_logined">logined</string>
+    <string name="location_share_click_to_login">click to login.</string>
+    <string name="location_share_log_out">log out</string>
+    <string name="location_share_send_location_directly">send</string>
+    <string name="location_share_send_location">send</string>
+    <string name="location_share_send_success">sent</string>
+    <string name="location_share_send_failure">failure</string>
+    <string name="location_share_send_network_issue">unable to share location,network failure.</string>
+    <string name="location_share_i_am_here">I\'m here</string>
+    <string name="login_failure">account or password incorrect!</string>
+    <string name="connection_failure">connection failed</string>
+    <string name="send_situation_count_subtitle">sent:</string>
+    <string name="cluster_title_count"> situations</string>
+    
+    <!-- ui string layout -->
+    <string name="activity_main_search_bar_hint">search&#8230;</string>
+    <string name="activity_main_menu_button_emergency">emergency call</string>
+    <string name="activity_main_menu_button_light">flashlight</string>
+    <string name="activity_main_menu_button_compass">compass</string>
+    <string name="activity_main_menu_button_parking">parking</string>
+    <string name="activity_main_menu_button_location_send">location share</string>
+    <string name="activity_main_menu_button_profile">profile</string>
+    <string name="activity_main_menu_button_settings">settings</string>
+    <string name="activity_main_menu_button_feedback">feedback</string>
+    <string name="activity_main_marker_confirmed">peoples confirmed.</string>
+    <string name="activity_login_account"> account:</string>
+    <string name="activity_login_password">password:</string>
+    <string name="activity_login_loging_in">loging&#8230;</string>
+    <string name="activity_login_account_hint">account/email</string>
+    <string name="activity_location_share_sending">sending&#8230;</string>
+    <string name="activity_profile_refreshing">refreshing&#8230;</string>
+    <string name="activity_profile_situations_sent_count">situation sent</string>
+    <string name="activity_profile_confirm_count">being appreciated</string>
+    <string name="activity_profile_relieve_count">situation relieve</string>
+    <string name="activity_profile_times">times</string>
+    <string name="activity_send_situation_recent_situation_title">recent</string>
+    <string name="activity_situation_detail_button_confirm">confirm</string>
+    <string name="activity_situation_detail_button_relieve">relieve</string>
+    
+    <!-- ui title -->
+    <string name="activity_send_situation_title">Publish</string>
+    <string name="activity_emergency_call_title">Emergency Call</string>
+    <string name="activity_location_share_title">Location Share</string>
+    <string name="activity_profile_title">profile</string>
+    <string name="activity_settings_title">settings</string>
+    <string name="activity_feedback_title">feedback</string>
+    <string name="activity_login_title">login</string>
+    <string name="activity_explanation_title">FAQs</string>
+    
+    <!-- location information -->
+    <string name="location_navigation_disconnected">navigation service is down.</string>
+    
+    <!-- exception information -->
+    <string name="exception_flashlight_no_available_title">flashlight failed!</string>
+    <string name="exception_flashlight_no_available">flash light no available on this device.</string>
+    <string name="exception_compass_no_available_title">compass failed!</string>
+    <string name="exception_compass_no_available">compass no available on this device.</string>
+    <string name="exception_telephony_no_available_title">telephony failed!</string>
+    <string name="exception_telephony_no_available">telephony no available on this device.</string>
+    <string name="exception_unable_to_make_phone_call_title">call failed!</string>
+    <string name="exception_unable_to_make_phone_call">can not make phone call.</string>
+    
+    <!-- google place api -->
+    <string name="google_place_api_language">en</string>
+    
+</resources>

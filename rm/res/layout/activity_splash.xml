@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity" >
+    
+    <RelativeLayout 
+        android:id="@+id/background_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag0"
+            android:layout_width="50dip"
+            android:layout_height="50dip" />
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag1"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_marginTop="20dip"
+            android:layout_toRightOf="@+id/tag0" />
+
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag2"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_marginLeft="-10dip"
+            android:layout_alignLeft="@+id/tag1"
+            android:layout_below="@+id/tag1" />
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag3"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_toRightOf="@+id/tag1"
+            android:layout_marginTop="-8dip" />
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag4"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_toRightOf="@+id/tag3"
+            android:layout_marginTop="-20dip" />
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag5"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:layout_toRightOf="@+id/tag4" />
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag6"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_toRightOf="@+id/tag5"
+            android:layout_below="@+id/tag5"
+            android:layout_marginTop="-10dip" />
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag7"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="-20dip"
+            android:layout_marginTop="-30dip" />
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag8"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_marginBottom="10dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="-20dip"
+            android:layout_below="@+id/tag7" />
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag9"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignBottom="@+id/tag2"
+            android:layout_alignParentLeft="true" />
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag10"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:layout_toRightOf="@+id/tag2"
+            android:layout_below="@+id/tag4" />
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag11"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_below="@+id/tag9"
+            android:layout_toRightOf="@+id/tag9" />
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag12"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_marginLeft="-20dip"
+            android:layout_below="@+id/tag11" />
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag13"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_toRightOf="@+id/tag12"
+            android:layout_alignTop="@+id/tag12"
+            android:layout_marginTop="5dip" />
+        
+        <com.jan.rm.widget.SinglePopupTag
+            android:id="@+id/tag14"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_below="@+id/tag12"
+            android:layout_marginLeft="-30dip" />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dip" >
+        
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo"
+            android:scaleType="centerInside" />
+        
+        <ImageView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_below="@+id/logo"
+            android:layout_marginTop="-20dip"
+            android:src="@drawable/rm_type"
+            android:scaleType="centerInside" />
+        
+        <ImageView
+            android:id="@+id/quote"
+            android:layout_width="match_parent"
+            android:layout_height="25dip"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="20dip"
+            android:src="@drawable/type"
+            android:scaleType="centerInside" />
+            
+        
+    </RelativeLayout>
+    
+    <ImageView
+        android:id="@+id/copyright"
+        android:layout_width="match_parent"
+        android:layout_height="12dip"
+        android:layout_marginBottom="3dip"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/co_type"
+        android:scaleType="centerInside" />
+
+</RelativeLayout>

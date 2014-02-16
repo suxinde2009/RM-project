@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="emergency_call_list">
+        <item>120</item>
+        <item>110</item>
+        <item>122</item>
+    </string-array>
+    
+    <string-array name="emergency_call_list_name">
+        <item>急救电话</item>
+        <item>报警电话</item>
+        <item>交警电话</item>
+    </string-array>
+    
+    <string-array name="location_share_name_list">
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>新浪微博</item>
+        <item>腾讯微博</item>
+    </string-array>
+    
+    <string-array name="medal_material">
+        <item>黄铜</item>
+        <item>白银</item>
+        <item>黄金</item>
+        <item>白金</item>
+        <item>钻金</item>
+    </string-array>
+    
+    <string-array name="medal_level">
+        <item> </item>
+        <item>一级</item>
+        <item>二级</item>
+        <item>三级</item>
+        <item>四级</item>
+        <item>五级</item>
+    </string-array>
+    
+    <string-array name="settings_menu">
+        <item>信息更新时间</item>
+        <item>搜索范围</item>
+        <item>里程记录</item>
+    </string-array>
+    
+    <!-- temporary solution -->
+    <string-array name="intruduction_title_list">
+        <item>\ @什麼是RM?</item>
+        <item>\ @RM的目標是什麼?</item>
+        <item>\ @如何操作RM?</item>
+        <item>\ @信息表示的顏色各自代表什麼意思?</item>
+        <item>\ @如何刪除已發送的狀況信息?</item>
+        <item>\ @信息狀況都是即時的嗎?</item>
+        <item>\ @我在開車重要如何分享信息狀況?</item>
+        <item>\ @我能拍攝短片並分享給朋友嗎?</item>
+        <item>\ @RM有支援iPhone或Window phone嗎?</item>
+        <item>\ @為何我的定位不准確?</item>
+        <item>\ @為何RM的導航感覺很陽春沒有其他道路導航軟體好用?</item>
+        <item>\ @信息分享對我有什麼好處?</item>
+    </string-array>
+    
+    <string-array name="intruduction_content_list">
+        <item>路訊Road Message (簡稱RM)，是一種以使用者主動提供訊息作為資訊傳播主導的新類型社群模式，藉以大量使用者間的即時訊息分享，讓其他使用者能即時得到”未來”將在路上遇到的狀況信息。</item>
+        <item>發揚『我為人人，人人為我』精神，讓真正對社會有用且正向的信息成為現代人APP生活的主流。  很偉大吧! &lt;(￣︶￣)></item>
+        <item>RM的操作介面可說是簡單到不行的很簡單，若還是搞不懂….請看影片! Youtube\土豆網</item>
+        <item>skip for the tag table</item>
+        <item>很抱歉，我們無法任意刪除使用者已發送的狀況信息。若該信息有錯誤，可經由其他使用者確認並給予解除狀況，只要有超過10位使用者確認解除狀況，該狀況信息則會立即刪除。若該狀況信息未達解除狀況人數門檻，該信息就必須等待30分鐘後，由系統自動解除該信息狀況。</item>
+        <item>是的！每筆狀況都是即時的。每筆狀況從發佈到自動解除，至少維持30分鐘的顯示時間。如該筆狀況確認人數增加，則狀況顯示會依照設定條件而有所變動。</item>
+        <item>很簡單，只要你確定有開啟RM，那麼RM內置語音辨識將會經由辨識你的說話來對應發佈信息狀況。（語音辨識無法清楚辨識音量不夠或語意不清的狀況係屬正常）另外，依照規定與個人行車安全，我們強烈建議行駛車輛時，請勿把玩手機或平板。 </item>
+        <item>你可以利用RM內置的攝影錄影功能，該功能可讓你拍攝60秒短片並傳送到你指定的社群分享給你的好友或RM社群上公開分享。 </item>
+        <item>目前我們只支援Android系統手機與平板，我們也希望能推出其他系統版本，但目前礙於我們資金很有限…只能敬請期待╮(╯▽╰)╭。</item>
+        <item>這個問題是所有人都頭大的問題，由於各種原因太多了，請原諒RM沒辦法給予你精準的答覆。如果你有興趣瞭解，可以參考這個網站，或許能夠解決你心中的疑惑也說不定。http://www.nsc.gov.tw/scitechvista/zh-tw/Articles/C/0/1/10/1/1633.htm</item>
+        <item>這道理很簡單，就好比一家知名的牛肉麵店有兼賣滷肉飯，但滷肉飯的口味卻讓你感到很一般。所以說，即時且正確的路上狀況信息分享才是我們的主要功能項目，道路導航只是便利你的附加功能，這樣解釋還滿意嗎?</item>
+        <item>想想看，當您得到別人的分享時，對方有得到您任何好處嗎？當您下載這個APP時，RM團隊有得到什麼好處嗎？(泣)雖然RM是一個免費信息分享社群，不過RM團隊也希望讓您在信息分享的同時也能累積好處。當然，天下並無白吃的午餐，在好康企劃出爐前，請持續與大家一同分享您的RM吧!</item>
+    </string-array>
+    
+</resources>

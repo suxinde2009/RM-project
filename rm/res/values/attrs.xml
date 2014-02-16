@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="SinglePopupTag">
+        <attr name="drawable" format="reference" />
+        <attr name="mode" format="integer" />
+    </declare-styleable>
+    
+    <declare-styleable name="BaseCompassView">
+        <attr name="android:gravity" />
+    </declare-styleable>
+    
+    <declare-styleable name="FontTextView">
+        <attr name="font" format="string|reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="RMProgressBar">
+        <attr name="android:color" />
+    </declare-styleable>
+    
+    <declare-styleable name="RMTitle">
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:text" />
+    </declare-styleable>
+    
+    <!-- TODO: implement modes
+    <declare-styleable name="SlideExpandableListView">
+        <attr name="mode">
+            <flag name="single" value="0" />
+            <flag name="multiple" value="1" />
+        </attr>
+    </declare-styleable>
+     -->
+    
+</resources>

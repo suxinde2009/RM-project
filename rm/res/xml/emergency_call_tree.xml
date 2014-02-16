@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<emergency name="緊急聯絡電話">
+    <tree name="常用電話">
+        <tree name="報案台" value="110" />
+        <tree name="火警台" value="119" />
+        <tree name="國道專線" value="1968" />
+        <tree name="氣象台" value="166" />
+        <tree name="報時台" value="117" />
+    </tree>
+    <tree name="拖吊服務電話">
+        <tree name="高速公路">
+            <tree name="北區工程處" value="02-27936555" />
+            <tree name="中區工程處" value="04-22529181" />
+            <tree name="南區工程處" value="06-2363201" />
+        </tree>
+        <tree name="車廠服務">
+            <tree name="Audi(利奔)" value="0809092834" />
+            <tree name="BMW(汎德)" value="0800291101" />
+            <tree name="Ford(福特六和)" value="0800032100" />
+            <tree name="Honda(本田台灣)" value="0800666789" />
+            <tree name="Hyundai(南陽)" value="0800003355" />
+            <tree name="Infiniti(裕隆)" value="0800333399" />
+            <tree name="Jaguar(九和)" value="0800088066" />
+            <tree name="Lexus(和泰)" value="0800091091" />
+            <tree name="Mercedes-Benz(台灣賓士)" value="0800036524" />
+            <tree name="Nissan(裕隆)" value="0800088888" />
+            <tree name="VW(太古標達)" value="0800000026" />
+            <tree name="VOLVO(國際富豪)" value="0800607080" />
+        </tree>
+        <tree name="信用卡服務">
+            <tree name="中國信託" value="0800000685" />
+            <tree name="花旗銀行" value="0800036111" />
+            <tree name="玉山銀行" value="0800011885" />
+            <tree name="上海銀行" value="0800000109" />
+            <tree name="新竹國際商銀" value="0800011898" />
+            <tree name="台灣銀行" value="0800010010" />
+            <tree name="彰化銀行" value="0800000333" />
+            <tree name="高雄銀行" value="0800007222" />
+            <tree name="國泰世華銀行" value="0800024598" />
+            <tree name="第一銀行" value="0800006333" />
+            <tree name="三信銀行" value="0800011898" />
+            <tree name="聯邦銀行" value="0800069688" />
+            <tree name="新光銀行" value="0800281885" />
+            <tree name="萬泰銀行" value="0809003288" />
+            <tree name="匯豐銀行" value="0800077006" />
+            <tree name="台新銀行" value="0800066885" />
+            <tree name="中華銀行" value="0800011388" />
+            <tree name="慶豐銀行" value="0800008885" />
+            <tree name="華南銀行" value="080009998" />
+            <tree name="土地銀行" value="0800011898" />
+            <tree name="中國國際商銀" value="0800093999" />
+            <tree name="富邦銀行" value="0800033080" />
+        </tree>
+    </tree>
+    <tree name="申述電話">
+        <tree name="台北市" value="1999" />
+        <tree name="交通部申訴專線" value="0800-231-161" />
+        <tree name="公路總局監理及大客車投訴專線" value="0800-231-035" />
+        <tree name="觀光局申訴專線" value="0800-211-734" />
+        <tree name="觀光局旅遊服務中心(台北)" value="0800-011-765" />
+        <tree name="觀光局旅遊服務中心(台中)" value="0800-422-022" />
+        <tree name="觀光局旅遊服務中心(高雄)" value="0800-252-550" />
+    </tree>
+</emergency>

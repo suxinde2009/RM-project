@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:orientation="vertical" />
+    
+    <RelativeLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+        
+        <View
+            android:id="@+id/shadow"
+            android:layout_width="match_parent"
+            android:layout_height="15dip"
+            android:background="@drawable/shadow_activity_title_base" />
+        
+        <com.jan.rm.widget.RMProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:color="@color/rm_content_highlight_color"
+            android:visibility="gone" />
+        
+    </RelativeLayout>
+    
+</LinearLayout>

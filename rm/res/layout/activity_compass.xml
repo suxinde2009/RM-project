@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rm="http://schemas.android.com/apk/res/com.jan.rm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000" >
+    
+    <com.jan.rm.widget.CompassView
+        android:id="@+id/compass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top" />
+    
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dip"
+        android:background="@drawable/ui_back" />
+    
+    <com.jan.rm.widget.FontTextView
+        android:id="@+id/coords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_above="@+id/back_button"
+        android:gravity="center"
+        android:text="东经12312312北纬12341234"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        rm:font="fonts/swiss_ht.ttf" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/coords" >
+        
+        <com.jan.rm.widget.FontTextView
+            android:id="@+id/angle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:text="212°"
+            android:gravity="center|right"
+            rm:font="fonts/swiss_ht.ttf"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp" />
+        
+        <TextView
+            android:id="@+id/direction"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:text="北"
+            android:gravity="center|left"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+        
+    </LinearLayout>
+</RelativeLayout>

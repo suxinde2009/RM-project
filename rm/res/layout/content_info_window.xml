@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:orientation="vertical"
+    android:background="@drawable/bubble_white" >
+    
+    <TextView 
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rm_content_highlight_color"
+        android:textSize="@dimen/rmcontent_main_text_size"
+        android:text="situations"
+        android:gravity="center"/>
+    
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rm_content_subtitle_text_color"
+        android:textSize="@dimen/rmcontent_map_info_window_text_size"
+        android:text="10 peoples confirmed"
+        android:gravity="center" />
+
+</LinearLayout>

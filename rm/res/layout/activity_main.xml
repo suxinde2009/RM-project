@@ -1,0 +1,301 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <RelativeLayout
+            android:id="@+id/content_frame_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                
+                <LinearLayout
+                    android:id="@+id/map_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" />
+                
+                <!-- a little trick to solve map over drawerlayout issue -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/main_button_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" >
+                
+                <Button
+                    android:id="@+id/main_button"
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/main_button_selector" />
+                
+                <Button
+                    android:id="@+id/menu_toggle"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:layout_toRightOf="@+id/main_button"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/settings_button_selector" />
+                
+                <Button
+                    android:id="@+id/explanation_button"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:layout_toLeftOf="@+id/main_button"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/explanation_button_selector" />
+                
+                <ImageButton
+                    android:id="@+id/my_location_button"
+                    android:layout_width="55dip"
+                    android:layout_height="55dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="2dip"
+                    android:layout_above="@+id/main_button"
+                    android:src="@drawable/my_location_button_selector"
+                    android:background="@drawable/button" />
+                
+            </RelativeLayout>
+            
+            <AutoCompleteTextView
+                style="@style/NoDividerListView"
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="65dip"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                android:textSize="@dimen/rmcontent_main_text_size"
+                android:textColor="@color/rm_content_main_text_color"
+                android:hint="@string/activity_main_search_bar_hint"
+                android:singleLine="true"
+                android:imeOptions="actionSearch"
+                android:completionThreshold="1"
+                android:drawableLeft="@drawable/ic_local_search_general"
+                android:drawablePadding="4dip"
+                android:paddingLeft="8dip"
+                android:paddingRight="57dip"
+                android:popupBackground="#FFFFFF"
+                android:background="@drawable/background_round_corner_single_unpress" />
+            
+            <com.jan.rm.widget.MiniCompassView 
+                android:id="@+id/mini_compass"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:layout_alignRight="@+id/search_bar"
+                android:layout_alignTop="@+id/search_bar"
+                android:layout_alignBottom="@+id/search_bar"
+                android:layout_marginTop="15dip"
+                android:layout_marginBottom="15dip"
+                android:layout_marginRight="10dip"/>
+            
+            <View
+                android:id="@+id/search_bar_divider"
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@+id/search_bar"
+                android:layout_alignBottom="@+id/search_bar"
+                android:layout_alignRight="@+id/search_bar"
+                android:layout_marginRight="52dip"
+                android:layout_marginTop="25dip"
+                android:layout_marginBottom="25dip"
+                android:background="@color/divider_treemenu" />
+            
+            <ProgressBar
+                android:id="@+id/search_progress_bar"
+                style="?android:attr/progressBarStyleSmallTitle"
+                android:layout_width="30dip"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@+id/search_bar"
+                android:layout_alignBottom="@+id/search_bar"
+                android:layout_toLeftOf="@+id/search_bar_divider"
+                android:layout_marginRight="5dip"
+                android:visibility="gone" />
+            
+            <com.jan.rm.widget.BottomUpView
+                android:id="@+id/bottom_up_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            
+        </RelativeLayout>
+        
+        <LinearLayout
+            android:id="@+id/right_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="#444444"
+            android:orientation="vertical" >
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.35" >
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical" >
+                    
+                    <Button
+                        android:id="@+id/emergency_call_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_main_menu_button_emergency"
+                        android:textSize="@dimen/main_menu_text_size"
+                        android:textColor="#FFFFFF"
+                        android:gravity="center|left"
+                        android:paddingLeft="20dip"
+                        android:paddingRight="20dip"
+                        android:background="@drawable/slide_menu_item_button_selector" />
+                    
+                    <Button
+                        android:id="@+id/light_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dip"
+                        android:text="@string/activity_main_menu_button_light"
+                        android:textSize="@dimen/main_menu_text_size"
+                        android:textColor="#FFFFFF"
+                        android:gravity="center|left"
+                        android:paddingLeft="20dip"
+                        android:paddingRight="20dip"
+                        android:background="@drawable/slide_menu_item_button_selector" />
+                    
+                    <Button
+                        android:id="@+id/compass_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dip"
+                        android:text="@string/activity_main_menu_button_compass"
+                        android:textSize="@dimen/main_menu_text_size"
+                        android:textColor="#FFFFFF"
+                        android:gravity="center|left"
+                        android:paddingLeft="20dip"
+                        android:paddingRight="20dip"
+                        android:background="@drawable/slide_menu_item_button_selector" />
+                    
+                    <Button
+                        android:id="@+id/parking_location_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dip"
+                        android:text="@string/activity_main_menu_button_parking"
+                        android:textSize="@dimen/main_menu_text_size"
+                        android:textColor="#FFFFFF"
+                        android:gravity="center|left"
+                        android:paddingLeft="20dip"
+                        android:paddingRight="20dip"
+                        android:background="@drawable/slide_menu_item_button_selector" />
+                    
+                    <Button
+                        android:id="@+id/send_location_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dip"
+                        android:text="@string/activity_main_menu_button_location_send"
+                        android:textSize="@dimen/main_menu_text_size"
+                        android:textColor="#FFFFFF"
+                        android:gravity="center|left"
+                        android:paddingLeft="20dip"
+                        android:paddingRight="20dip"
+                        android:background="@drawable/slide_menu_item_button_selector" />
+                    
+                </LinearLayout>
+                
+            </RelativeLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.65"
+                android:orientation="vertical" >
+                
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:src="@drawable/divider_drawer" />
+                
+                <Button
+                    android:id="@+id/profile_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_menu_button_profile"
+                    android:textSize="@dimen/main_menu_text_size"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center|left"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:background="@drawable/slide_menu_item_button_selector" />
+                
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:src="@drawable/divider_drawer" />
+                
+                <Button
+                    android:id="@+id/settings_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_menu_button_settings"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/main_menu_text_size"
+                    android:gravity="center|left"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:background="@drawable/slide_menu_item_button_selector" />
+                
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:src="@drawable/divider_drawer" />
+                
+                <Button
+                    android:id="@+id/feedback_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_menu_button_feedback"
+                    android:textSize="@dimen/main_menu_text_size"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center|left"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:background="@drawable/slide_menu_item_button_selector" />
+                
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:src="@drawable/slide_menu_item_button_selector" />
+                
+                
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+    </android.support.v4.widget.DrawerLayout>
+    
+</RelativeLayout> 

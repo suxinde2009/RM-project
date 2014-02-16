@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">路讯</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="north">北</string>
+    <string name="south">南</string>
+    <string name="east">东</string>
+    <string name="west">西</string>
+    <string name="north_west">西北</string>
+    <string name="south_west">西南</string>
+    <string name="north_east">东北</string>
+    <string name="south_east">东南</string>
+    <string name="n_latitude">北纬</string>
+    <string name="s_latitude">南纬</string>
+    <string name="e_longitude">东经</string>
+    <string name="w_longitude">西经</string>
+    
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    
+    <!-- ui string -->
+    <string name="marker_title_park_here">车子停在这!</string>
+    <string name="marker_clicked_sub_title">点击关闭</string>
+    <string name="marker_clicked_no_result">找不到相关信息</string>
+    <string name="location_share_logined">已登录</string>
+    <string name="location_share_click_to_login">点击登录</string>
+    <string name="location_share_log_out">注销登录</string>
+    <string name="location_share_send_location_directly">直接发送</string>
+    <string name="location_share_send_location">发送</string>
+    <string name="location_share_send_success">发送成功</string>
+    <string name="location_share_send_failure">发送失败</string>
+    <string name="location_share_send_network_issue">发送失败，网络问题。</string>
+    <string name="location_share_i_am_here">我在这里</string>
+    <string name="login_failure">帐号或者密码错误!</string>
+    <string name="connection_failure">无法连接网络</string>
+    <string name="send_situation_count_subtitle">已发布%1$s次</string>
+    <string name="cluster_title_count">个状况</string>
+    
+    <!-- ui string layout -->
+    <string name="activity_main_search_bar_hint">搜索&#8230;</string>
+    <string name="activity_main_menu_button_emergency">紧急电话</string>
+    <string name="activity_main_menu_button_light">手电筒</string>
+    <string name="activity_main_menu_button_compass">指南针</string>
+    <string name="activity_main_menu_button_parking">停车定位</string>
+    <string name="activity_main_menu_button_location_send">目前位置发布</string>
+    <string name="activity_main_menu_button_profile">个人资料</string>
+    <string name="activity_main_menu_button_settings">设置</string>
+    <string name="activity_main_menu_button_feedback">意见反馈</string>
+    <string name="activity_main_marker_confirmed">个人确认过</string>
+    <string name="activity_login_account">帐号:</string>
+    <string name="activity_login_password">密码:</string>
+    <string name="activity_login_loging_in">正在登录&#8230;</string>
+    <string name="activity_login_account_hint">帐号/邮箱</string>
+    <string name="activity_location_share_sending">正在发送&#8230;</string>
+    <string name="activity_profile_refreshing">正在刷新&#8230;</string>
+    <string name="activity_profile_situations_sent_count">已发送路讯次数</string>
+    <string name="activity_profile_confirm_count">被感谢次数</string>
+    <string name="activity_profile_relieve_count">协助确认路讯次数</string>
+    <string name="activity_profile_times">次</string>
+    <string name="activity_send_situation_recent_situation_title">常用信息</string>
+    <string name="activity_situation_detail_button_confirm">确定</string>
+    <string name="activity_situation_detail_button_relieve">解除</string>
+    
+    <!-- ui title -->
+    <string name="activity_send_situation_title">路讯发布</string>
+    <string name="activity_location_share_title">分享位置</string>
+    <string name="activity_emergency_call_title">紧急电话</string>
+    <string name="activity_profile_title">个人资料</string>
+    <string name="activity_settings_title">设置</string>
+    <string name="activity_feedback_title">意见反馈</string>
+    <string name="activity_login_title">登录</string>
+    <string name="activity_explanation_title">路讯操作说明</string>
+    
+    <!-- location information -->
+    <string name="location_navigation_disconnected">导航失败.</string>
+    
+    <!-- exception information -->
+    <string name="exception_flashlight_no_available_title">闪光灯错误!</string>
+    <string name="exception_flashlight_no_available">手机不支持闪光灯!</string>
+    <string name="exception_compass_no_available_title">指南针错误!</string>
+    <string name="exception_compass_no_available">手机不支持指南针!</string>
+    <string name="exception_telephony_no_available_title">通话错误!</string>
+    <string name="exception_telephony_no_available">设备不支持打电话!</string>
+    <string name="exception_unable_to_make_phone_call_title">拨打电话失败!</string>
+    <string name="exception_unable_to_make_phone_call">手机无法拨打电话!</string>
+    
+    <!-- google place api -->
+    <string name="google_place_api_language">zh-CN</string>
+
+</resources>

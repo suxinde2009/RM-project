@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF595656"
+    tools:context=".subactivity.FlashLightActivity"
+    tools:ignore="ContentDescription" >
+
+    <ImageView
+        android:id="@+id/toggle"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_centerInParent="true"
+        android:src="@drawable/light_on" />
+
+    <ImageView
+        android:id="@+id/sos"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_above="@+id/toggle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dip"
+        android:src="@drawable/light_sos"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dip"
+        android:background="@drawable/ui_back" />
+
+</RelativeLayout>
