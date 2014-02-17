@@ -472,6 +472,8 @@ public class GoogleMapActivity extends FragmentActivity{
 									clusterManager.addItem(addClusterMarkers.poll());
 								}
 							}
+							
+							clusterManager.cluster();
 						}
 					}
 				}.executeOnRunningExecutor(situationUpdateSingleTaskExecutor);
@@ -482,7 +484,6 @@ public class GoogleMapActivity extends FragmentActivity{
 	};
 	
 	private void executeLocationGotResult(double[] result, float gpsAccuracy){
-		RLog.d(result[0] + "", result[1] + "");
 		if(map != null){
 			LatLng disLatLng = new LatLng(result[0], result[1]);
 			if(currentLatLng != null && currentMillisSeconds != -1){

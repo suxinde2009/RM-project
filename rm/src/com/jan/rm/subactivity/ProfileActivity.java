@@ -84,6 +84,7 @@ public class ProfileActivity extends BaseTitleActivity{
 					
 					account.setText(user.getUserId());
 					
+					/*
 					int material = user.getLevel() / 6;
 					int level = user.getLevel() % 6 - 1;
 					if(level < 0) level = 0;
@@ -92,6 +93,7 @@ public class ProfileActivity extends BaseTitleActivity{
 					
 					int id = ProfileActivity.this.getResources().getIdentifier(packageName + medalLevelRes[material] + level, null, null);
 					medal.setImageResource(id);
+					 */
 				}catch(Exception e){
 					e.printStackTrace();
 				}
@@ -110,6 +112,25 @@ public class ProfileActivity extends BaseTitleActivity{
 				updateAllSet();
 				try{
 					sendCount.setText(result.getJSONObject(0).getString("publishCount") + ProfileActivity.this.getString(R.string.activity_profile_times));
+					
+					int level = 0;
+					int levelIncrease = 0;
+					for(int i = 0; i < levelDepend.length; i++){
+						levelIncrease += levelDepend[i];
+						if(levelIncrease < result.getJSONObject(0).getInt("publishCount")){
+							level++;
+						}else{
+							break;
+						}
+					}
+					
+					int material = level / 6;
+					
+                    medalLevel.setText(medalMaterialString[material] + medalLevelString[level]);
+					
+					int id = ProfileActivity.this.getResources().getIdentifier(packageName + medalLevelRes[material] + level, null, null);
+					medal.setImageResource(id);
+					
 				}catch(Exception e){
 					e.printStackTrace();
 				}

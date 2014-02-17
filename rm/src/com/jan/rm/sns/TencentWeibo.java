@@ -7,6 +7,8 @@ import com.jan.rm.sns.entity.Status;
 import com.jan.rm.sns.entity.User;
 
 public class TencentWeibo extends SNS{
+	
+	private final String HEAD_IMAGE_RESOLUTION = "/100";
 
 	@Override
 	public String updateStatus(Status status) {
@@ -20,7 +22,7 @@ public class TencentWeibo extends SNS{
 		
 		user.setUserId((String) userInfo.get("openid"));
 		user.setUserName((String) userInfo.get("nick"));
-		user.setAvatarImagePath((String) userInfo.get("head") + "/100");
+		user.setAvatarImagePath((String) userInfo.get("head") + HEAD_IMAGE_RESOLUTION);
 		user.setStatusesCount((Integer) userInfo.get("tweetnum"));
 		user.setDescription((String) userInfo.get("introduction"));
 		user.setGender(parseGender((Integer) userInfo.get("sex")));

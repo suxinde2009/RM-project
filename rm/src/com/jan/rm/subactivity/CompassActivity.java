@@ -1,27 +1,16 @@
 package com.jan.rm.subactivity;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Locale;
-
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
-import com.jan.rm.GoogleMapActivity;
 import com.jan.rm.R;
 import com.jan.rm.baseactivity.BaseActivity;
 import com.jan.rm.entity.PlaceSearchResult;
 import com.jan.rm.task.GooglePlacesSearchTask;
-import com.jan.rm.task.GooglePlacesSearchTask.GeoCodeLatLngSearchTask;
 import com.jan.rm.utils.LocationSeeker;
 import com.jan.rm.utils.LocationSeeker.OnLocationGotListener;
 import com.jan.rm.widget.BaseCompassView.OnDirectionChangeListener;
 import com.jan.rm.widget.CompassView;
 
-import android.location.Address;
-import android.location.Geocoder;
 import android.location.Location;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
